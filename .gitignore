@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+
+# Data (large files - upload separately)
+data/*.csv
+
+# Models (large - save separately)
+models/*.pkl
+
+# CatBoost info
+catboost_info/
+
+# Mac OS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Results (generated at runtime)
+results/live_packets.csv
+
+# Logs
+*.log
